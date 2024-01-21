@@ -16,4 +16,5 @@ else()
         "include/KHR/khrplatform.h" 
         "src/glad.c")
 endif()
+
 target_include_directories(glad PUBLIC "include")
