@@ -18,3 +18,7 @@ else()
 endif()
 
 target_include_directories(glad PUBLIC "include")
+
+install(TARGETS ${PROJECT_NAME}
+        LIBRARY DESTINATION ${CMAKE_INSTALL_PREFIX}
+        ARCHIVE DESTINATION ${CMAKE_INSTALL_PREFIX})
